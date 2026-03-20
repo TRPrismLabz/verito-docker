@@ -1,0 +1,24 @@
+# --- CRITICAL: NEVER REMOVE THESE ---
+.env
+*.env
+.env.local
+.env.*.local
+
+# --- DOCKER SPECIFIC ---
+.docker/
+*.db
+dump.rdb
+docker-compose.override.yml
+data/
+
+# --- OS SPECIFIC ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
